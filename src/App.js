@@ -2,18 +2,14 @@ import './App.css';
 
 function App() {
 
-  const functionClick = () =>{
-    console.log('onClick')
-  }
-
-  const functionOnMouseOver = () =>{
-    console.log('onMouseOver')
+  const functionWithParameters = (parameter) =>{
+    console.log(`function llençada desde: ${ parameter }`)
   }
 
   return (
     <>
-      <button onClick={ functionClick }> On Click </button>
-      <h1 onMouseOver={ functionOnMouseOver }> Mouse Over Event </h1>
+      <button onClick={ functionWithParameters }> On Click </button>
+      <h1 onMouseOver={ functionWithParameters }> Mouse Over Event </h1>
     </>
   );
 }
