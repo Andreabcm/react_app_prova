@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import logo from '../img/qx7jYSYm_400x400 (1).jpg';
 
 class Header extends Component{
